@@ -3,7 +3,7 @@
 ## Ćwiczenie 2: Zmiana obrazów
 
 ```bash
-docker pull ubuntu:16.04`
+docker pull ubuntu:16.04
 ```
 
 ![Screenshoot 01](ss01.png)
