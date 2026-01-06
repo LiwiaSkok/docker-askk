@@ -2,34 +2,36 @@
 
 ## Ćwiczenie 4: Udostępnianie obrazów
 
-> docker login
+> `docker login`
 
 ![Screenshoot 01](ss01.png)
 
-> docker search dog
+> `docker search dog`
 
 ![Screenshoot 02](ss02.png)
 
 ### Zmiana nazwy
 
-> docker tag liwia/ping:latest liwiaskok/ping:latest
-> docker images
-> docker rmi liwia/ping:latest
+> `docker tag liwia/ping:latest liwiaskok/ping:latest`
+
+> `docker images`
+
+> `docker rmi liwia/ping:latest`
 
 ![Screenshoot 03](ss03.png)
 
-> docker tag liwiaskok/ping:latest liwiaskok/ping:v1
-> docker images
+> `docker tag liwiaskok/ping:latest liwiaskok/ping:v1`
+> `docker images`
 
 ![Screenshoot 04](ss04.png)
 
-> docker rmi liwiaskok/ping
-> docker images
+> `docker rmi liwiaskok/ping`
+> `docker images`
 
 ![Screenshoot 05](ss05.png)
 
->docker push liwiaskok/ping:v1
->docker images
+> `docker push liwiaskok/ping:v1`
+> `docker images`
 
 ![Screenshoot 06](ss06.png)
 

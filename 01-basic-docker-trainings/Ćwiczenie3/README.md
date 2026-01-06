@@ -6,15 +6,15 @@
 
 ![Screenshoot 01](ss01.png)
 
->New-Item Dockerfile
+> New-Item Dockerfile
 
 ![Screenshoot 02](ss02.png)
 
->docker build -t 'liwia/ping' .
+> docker build -t 'liwia/ping' .
 
 ![Screenshoot 03](ss03.png)
 
->docker images
+> docker images
 
 ![Screenshoot 04](ss04.png)
 
@@ -24,8 +24,8 @@
 
 ### Poprawa o 48 MB
 
->docker build -t 'liwia/ping' .
->docker images
+> `docker build -t 'liwia/ping' .`
+> `docker images`
 
 ![Screenshoot 06](ss06.png)
 
