@@ -3,6 +3,7 @@
 ## Ćwiczenie 1: Uruchamianie kontenerów
 
 ![Screenshoot 01](ss01.png)
+
 ![Screenshoot 02](ss02.png)
 ![Screenshoot 03](ss03.png)
 ![Screenshoot 04](ss04.png)
