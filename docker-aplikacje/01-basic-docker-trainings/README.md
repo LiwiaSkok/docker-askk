@@ -1,1 +1,0 @@
-Ćwiczenie 1
