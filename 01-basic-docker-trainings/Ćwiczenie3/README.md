@@ -24,6 +24,9 @@
 
 ### Poprawa o 48 MB
 
+>docker build -t 'liwia/ping' .
+>docker images
+
 ![Screenshoot 06](ss06.png)
 
 ![Screenshoot 07](ss07.png)
