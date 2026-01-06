@@ -9,7 +9,6 @@
 ![Screenshoot 05](ss05.png)
 ![Screenshoot 06](ss06.png)
 ![Screenshoot 07](ss07.png)
-![Screenshoot 08](ss08.png)
 ![Screenshoot 09](ss09.png)
 ![Screenshoot 10](ss10.png)
 ![Screenshoot 11](ss11.png)
