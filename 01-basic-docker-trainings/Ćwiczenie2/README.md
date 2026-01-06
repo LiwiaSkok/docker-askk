@@ -2,12 +2,15 @@
 
 ## Ćwiczenie 2: Zmiana obrazów
 
-> Polecenie: `docker pull ubuntu:16.04`
+```bash
+docker pull ubuntu:16.04`
+```
 
 ![Screenshoot 01](ss01.png)
 
-> Polecenie: `docker run -it ubuntu:16.04 /bin/bash`
-
+```bash
+docker run -it ubuntu:16.04 /bin/bash
+```
 ![Screenshoot 02](ss02.png)
 
 ```bash
@@ -25,11 +28,11 @@ apt-get install iputils-ping
 ```
 ![Screenshoot 05](ss05.png)
 
-> Polecenie: `docker ps`
-
-> Polecenie: ` docker commit 1faed708f67b kuba/ping:lates`
-
-> Polecenie: `docker images`
+```bash
+docker ps
+docker commit 1faed708f67b kuba/ping:lates
+docker images
+```
 
 ![Screenshoot 06](ss06.png)
 
