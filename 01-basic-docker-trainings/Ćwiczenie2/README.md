@@ -30,7 +30,7 @@ apt-get install iputils-ping
 
 ```bash
 docker ps
-docker commit 1faed708f67b kuba/ping:lates
+docker commit 79243187b513 liwia/ping:latest
 docker images
 ```
 
