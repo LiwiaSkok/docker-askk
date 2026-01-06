@@ -21,16 +21,19 @@
 ![Screenshoot 03](ss03.png)
 
 > `docker tag liwiaskok/ping:latest liwiaskok/ping:v1`
+
 > `docker images`
 
 ![Screenshoot 04](ss04.png)
 
 > `docker rmi liwiaskok/ping`
+
 > `docker images`
 
 ![Screenshoot 05](ss05.png)
 
 > `docker push liwiaskok/ping:v1`
+
 > `docker images`
 
 ![Screenshoot 06](ss06.png)
