@@ -5,4 +5,4 @@
 - [Ćwiczenie 03](./01-basic-docker-trainings/Ćwiczenie3/README.md)
 - [Ćwiczenie 04](./01-basic-docker-trainings/Ćwiczenie4/README.md)
 - [Ćwiczenie 05](./01-basic-docker-trainings/Ćwiczenie5/README.md)
-- [Ćwiczenie 06](./01-basic-docker-trainings/Ćwiczenie6/README.md)
+- [Ćwiczenie 06](./Ćwiczenie6/README.md)
