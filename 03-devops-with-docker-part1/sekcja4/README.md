@@ -65,26 +65,3 @@
 
 ![Screenshoot 14](ss14.png)
 
-> ``
-
-![Screenshoot 15](ss15.png)
-
-> ``
-
-![Screenshoot 16](ss16.png)
-
-> ``
-
-![Screenshoot 17](ss17.png)
-
-> ``
-
-![Screenshoot 18](ss18.png)
-
-> ``
-
-![Screenshoot 19](ss19.png)
-
-> ``
-
-![Screenshoot 20](ss20.png)
