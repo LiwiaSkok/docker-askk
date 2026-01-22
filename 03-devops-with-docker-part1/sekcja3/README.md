@@ -132,33 +132,3 @@
 
 ![Screenshoot 22](ss22.png)
 
-> ``
-
-![Screenshoot 23](ss23.png)
-
-> ``
-
-![Screenshoot 24](ss24.png)
-
-> ``
-
-![Screenshoot 25](ss25.png)
-
-> ``
-
-![Screenshoot 26](ss26.png)
-
-> ``
-
-![Screenshoot 27](ss27.png)
-
-> ``
-
-![Screenshoot 28](ss28.png)
-
-> ``
-
-![Screenshoot 29](ss29.png)
-![Screenshoot 30](ss30.png)
-![Screenshoot 31](ss31.png)
-![Screenshoot 32](ss32.png)
