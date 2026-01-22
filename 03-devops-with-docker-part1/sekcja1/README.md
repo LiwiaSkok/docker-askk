@@ -34,34 +34,3 @@
 
 ![Screenshoot 08](ss08.png)
 
-> ``
-
-![Screenshoot 09](ss09.png)
-
-> ``
-
-![Screenshoot 10](ss10.png)
-
-> ``
-
-![Screenshoot 11](ss11.png)
-
-> ``
-
-![Screenshoot 12](ss12.png)
-
-> ``
-
-![Screenshoot 13](ss13.png)
-
-> ``
-
-![Screenshoot 14](ss14.png)
-
-> ``
-
-![Screenshoot 15](ss15.png)
-
-> ``
-
-![Screenshoot 16](ss16.png)
