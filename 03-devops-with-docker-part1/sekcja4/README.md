@@ -24,6 +24,8 @@
 
 ![Screenshoot 05](ss05.png)
 
+[Dockerfile](Dockerfile.1)
+
 > `docker build -f Dockerfile.1 -t yt-dlp .`
 
 ![Screenshoot 06](ss06.png)
@@ -56,6 +58,10 @@
 ![Screenshoot 12](ss12.png)
 
 ### Ulepszony curler
+
+[Skrypt](script.sh)
+
+[Dockerfile](Dockerfile)
 
 > `docker build . -t curler-v2`
 
