@@ -65,7 +65,7 @@
 
 ### Ćwiczenie 2.3
 
-[Docker compose ćw 2.3](./cw2.3/docker-compose.yml)
+[Docker compose ćw 2.3](./cw2_3/docker-compose.yml)
 
 > `docker compose up --build`
 

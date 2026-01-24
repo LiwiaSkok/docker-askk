@@ -1,0 +1,32 @@
+services:
+  proxy:
+    image: jwilder/nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    ports:
+      - "80:80"
+
+  whoami:
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=whoami.colasloth.com
+    depends_on:
+      - proxy
+
+  hello:
+    image: nginx:1.19-alpine
+    volumes:
+      - ./hello.html:/usr/share/nginx/html/index.html:ro
+    environment:
+      - VIRTUAL_HOST=hello.colasloth.com
+    depends_on:
+      - proxy
+
+  world:
+    image: nginx:1.19-alpine
+    volumes:
+      - ./world.html:/usr/share/nginx/html/index.html:ro
+    environment:
+      - VIRTUAL_HOST=world.colasloth.com
+    depends_on:
+      - proxy
