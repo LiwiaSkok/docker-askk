@@ -1,6 +1,6 @@
 # Sekcja 1
 
-## cdMigracja do Docker Compose
+## Migracja do Docker Compose
 
 [Docker compose 1](docker-compose.1.yml)
 
@@ -25,6 +25,7 @@
 ### Ćwiczenie 2.1
 
 [Docker compose 3](docker-compose.3.yml)
+
 [text.log](text.log)
 
 > `docker compose -f docker-compose.3.yml build`
@@ -49,14 +50,14 @@
 
 > `curl http://localhost:8000`
 
-[Docker compose](./whoami/docker-compose.yml)
+[Docker compose whoami](./whoami/docker-compose.yml)
 
 
 ![Screenshoot 07](ss07.png)
 
 ### Ćwiczenia 2.2
 
-[Docker compose](docker-compose.4.yml)
+[Docker compose 4](docker-compose.4.yml)
 
 > `docker compose -f docker-compose.4.yml up`
 
@@ -64,7 +65,7 @@
 
 ### Ćwiczenie 2.3
 
-[Docker compose](./cw2.3/docker-compose.yml)
+[Docker compose ćw 2.3](./cw2.3/docker-compose.yml)
 
 > `docker compose up --build`
 
