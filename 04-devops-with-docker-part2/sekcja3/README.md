@@ -43,7 +43,7 @@
 
 ![Screenshoot 08](ss08.png)
 
-### Ćwiczenie 10
+### Ćwiczenie 2.10
 
 > `docker run -it --rm networkstatic/nmap host.docker.internal`
 
