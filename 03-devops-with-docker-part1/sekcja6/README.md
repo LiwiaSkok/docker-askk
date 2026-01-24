@@ -2,7 +2,7 @@
 
 ## Wykorzystywanie narzędzi z rejestru
 
-[Dockerfile.ruby][Dockerfile.ruby]
+[Dockerfile.ruby](Dockerfile.ruby)
 
 > `git clone https://github.com/docker-hy/material-applications.git`
 
@@ -30,7 +30,7 @@
 
 ### 1.11 Spring
 
-[Dockerfile.java][Dockerfile.java]
+[Dockerfile.java](Dockerfile.java)
 
 > `docker build -t spring-project .`
 
@@ -42,7 +42,7 @@
 
 ### 1.12 Hello, frontend
 
-[Dockerfile.frontend][Dockerfile.frontend]
+[Dockerfile.frontend](Dockerfile.frontend)
 
 > `docker build -t example-frontend .`
 
@@ -54,7 +54,7 @@
 
 ### 1.13 Hello, backend
 
-[Dockerfile.backend][Dockerfile.backend]
+[Dockerfile.backend](Dockerfile.backend)
 
 > `docker build -t example-backend .`
 
@@ -85,7 +85,7 @@
 
 ### 1.16
 
-[Link do zdeplyowanej aplikacji na renderze][https://zad1-16-docker-latest.onrender.com]
+[ Link do zdeplyowanej aplikacji na renderze ](https://zad1-16-docker-latest.onrender.com)
 
 ![Screenshoot 14](ss14.png)
 
