@@ -24,7 +24,7 @@
 
 ![Screenshoot 04](ss04.png)
 
-[release.yml](\.github\workflows\release.yml)
+[release.yml](.github\workflows\release.yml)
 
 [Dockerhub link](https://hub.docker.com/repository/docker/liwiaskok/express-app/general)
 
@@ -68,23 +68,46 @@
 
 ### Ćwiczenie 3.3
 
-> ``
+[Skrypt builder.sh](05-devops-with-docker-part3\sekcja2\builder.sh)
+
+> `wsl --install -d Ubuntu`
+
+> `chmod +x builder.sh`
+
+> `docker login`
 
 ![Screenshoot 16](ss16.png)
 
-> ``
+> `./builder.sh mluukkai/express_app liwiaskok/testing`
+
+> `cd ~/builder`
+
+> `DOCKER_USER=liwiaskok DOCKER_PWD=MÓJ_TOKEN ./builder.sh mluukkai/express_app liwiaskok/testing`
 
 ![Screenshoot 17](ss17.png)
 
-> ``
-
 ![Screenshoot 18](ss18.png)
 
-> ``
+### Ćwiczenie 3.4
 
+[Repozytorium Dockerhub](https://hub.docker.com/repository/docker/liwiaskok/testing/general)
+
+> `nano Dockerfile`
+
+> `ls`
+
+> `docker build -t builder .`
 
 ![Screenshoot 19](ss19.png)
 
-> ``
+``` bash
+docker run --rm \
+  -e DOCKER_USER=liwiaskok \
+  -e DOCKER_PWD=mój_token \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  builder mluukkai/express_app liwiaskok/testing
+```
 
 ![Screenshoot 20](ss20.png)
+
+![Screenshoot 21](ss21.png)
