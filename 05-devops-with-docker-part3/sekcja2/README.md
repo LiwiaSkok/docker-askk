@@ -46,23 +46,27 @@
 
 [deploy-render.yml](.github\workflows\deploy-render.yml)
 
+*Skonfigurowano Deploy Hook w Render do automatycznego wdrażania aplikacji.*
+
 ![Screenshoot 11](ss11.png)
 
-> ``
+*Lista wykonanych deployów aplikacji w Render, wyzwalanych automatycznie przez pipeline GitHub Actions*
 
 ![Screenshoot 12](ss12.png)
 
-> ``
+*Widok uruchomionego deployu aplikacji w Render.*
 
 ![Screenshoot 13](ss13.png)
 
-> ``
+[Aplikacja](https://zad1-16-docker-latest.onrender.com/)
+
+*Po wprowadzeniu zmian w kodzie i wykonaniu push, aplikacja została automatycznie przebudowana i ponownie wdrożona na Render.*
 
 ![Screenshoot 14](ss14.png)
 
-> ``
-
 ![Screenshoot 15](ss15.png)
+
+### Ćwiczenie 3.3
 
 > ``
 
