@@ -39,7 +39,7 @@
 ### Ćwiczenie 2.8 i 2.9
 > `docker compose up --build`
 
-[ngnix.conf](./cw2_5/nginx.conf)
+[nginx.conf](cw2_6/nginx.conf)
 
 ![Screenshoot 08](ss08.png)
 
