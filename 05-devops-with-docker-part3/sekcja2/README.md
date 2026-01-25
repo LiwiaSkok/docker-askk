@@ -20,15 +20,15 @@
 
 ![Screenshoot 04](ss04.png)
 
-> ``
+[release.yml](\.github\workflows\release.yml)
+
+[Dockerhub link](https://hub.docker.com/repository/docker/liwiaskok/express-app/general)
 
 ![Screenshoot 05](ss05.png)
 
-> ``
-
 ![Screenshoot 06](ss06.png)
 
-> ``
+> `docker run -d --name express -p 3000:3000 liwiaskok/express-app:latest`
 
 ![Screenshoot 07](ss07.png)
 
