@@ -44,7 +44,7 @@
 
 ### Ćwiczenie 3.2
 
-[deploy-render.yml](.github\workflows\deploy-render.yml)
+[deploy-render.yml](../../.github/workflows/deploy-render.yml)
 
 *Skonfigurowano Deploy Hook w Render do automatycznego wdrażania aplikacji.*
 
@@ -68,7 +68,7 @@
 
 ### Ćwiczenie 3.3
 
-[Skrypt builder.sh](05-devops-with-docker-part3\sekcja2\builder.sh)
+[Skrypt builder.sh](builder/builder.sh)
 
 > `wsl --install -d Ubuntu`
 
