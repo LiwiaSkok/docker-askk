@@ -1,7 +1,11 @@
 # Sekcja 2
 ### Własny pipeline
 
+
+### Ćwiczenie 3.1
+
 > `npm start`
+
 ![Screenshoot 01](ss01.png)
 
 > `docker build -t express-app .`
@@ -32,19 +36,15 @@
 
 ![Screenshoot 07](ss07.png)
 
-> ``
-
 ![Screenshoot 08](ss08.png)
-
-> ``
 
 ![Screenshoot 09](ss09.png)
 
-> ``
-
 ![Screenshoot 10](ss10.png)
 
-> ``
+### Ćwiczenie 3.2
+
+[deploy-render.yml](.github\workflows\deploy-render.yml)
 
 ![Screenshoot 11](ss11.png)
 
