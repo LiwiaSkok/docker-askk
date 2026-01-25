@@ -24,7 +24,7 @@
 
 ![Screenshoot 04](ss04.png)
 
-[release.yml](.github\workflows\release.yml)
+[release.yml](../../.github/workflows/release.yml)
 
 [Dockerhub link](https://hub.docker.com/repository/docker/liwiaskok/express-app/general)
 
