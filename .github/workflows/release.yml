@@ -8,18 +8,24 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-      - uses: docker/setup-buildx-action@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - uses: docker/login-action@v3.1.0
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3.1.0
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: docker/build-push-action@v6
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
         with:
-          context: .
+          context: 05-devops-with-docker-part3/sekcja2/express-app
+          file: 05-devops-with-docker-part3/sekcja2/express-app/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/express-app:latest
